@@ -22,13 +22,14 @@ public class T01 {
         iSBN = input.nextLine();
         judul = input.nextLine();
         namaPenulis = input.nextLine();
-        tahunterbit = input.nextInt();
+        tahunterbit = Integer.parseInt(input.nextLine());
         penerbit = input.nextLine();
         formatbukupaperback = input.nextLine();
-        hargapembelian = input.nextDouble();
-        minimummargin = input.nextDouble();
-        stok = input.nextInt();
-        rating = input.nextDouble();
+        hargapembelian = Double.parseDouble(input.nextLine());
+        minimummargin = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + judul + "|" + namaPenulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbukupaperback + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + rating);
     }
 }
+
